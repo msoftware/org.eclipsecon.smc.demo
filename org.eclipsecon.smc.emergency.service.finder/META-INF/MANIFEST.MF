@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Finder
+Bundle-SymbolicName: org.eclipsecon.smc.emergency.service.finder
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.e4.core.contexts;bundle-version="1.1.0",
+ org.eclipsecon.smc.emergency.service.police;bundle-version="1.0.0",
+ org.eclipse.e4.core.di;bundle-version="1.1.0",
+ org.eclipsecon.smc.emergency.service;bundle-version="1.0.0"
+Service-Component: OSGI-INF/finder.xml
+Export-Package: org.eclipsecon.smc.emergency.service.finder
