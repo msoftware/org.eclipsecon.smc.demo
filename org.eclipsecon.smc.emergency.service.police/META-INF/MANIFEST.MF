@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Police
+Bundle-SymbolicName: org.eclipsecon.smc.emergency.service.police
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.eclipsecon.smc.emergency.service;bundle-version="1.0.0"
+Service-Component: police.xml
+Export-Package: implementors

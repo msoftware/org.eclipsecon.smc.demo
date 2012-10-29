@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Service
+Bundle-SymbolicName: org.eclipsecon.smc.converters.service
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.eclipsecon.smc.converters.service.Activator
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: org.osgi.framework;version="1.3.0"
+Require-Bundle: org.eclipsecon.smc.emergency.service;bundle-version="1.0.0"
+Export-Package: org.eclipsecon.smc.converters.service

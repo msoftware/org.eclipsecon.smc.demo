@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_ll5B8AzAEeKlmakrmmRgnw" elementId="org.eclipse.e4.ide.application" bindingContexts="_ll5B8QzAEeKlmakrmmRgnw">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_wszE8AzAEeKlmakrmmRgnw" elementId="org.eclipsecon.smc.e4.app.trimmedwindow.0" label="EclipseCon Demo" x="419" y="6" width="944" height="720">
+    <tags>shellMaximized</tags>
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_4zw4IAzYEeKlmakrmmRgnw" elementId="org.eclipsecon.smc.e4.app.perspectivestack.0" selectedElement="_7BIHkAzYEeKlmakrmmRgnw">
+      <children xsi:type="advanced:Perspective" xmi:id="_7BIHkAzYEeKlmakrmmRgnw" elementId="emergency.perspective" label="Emergency">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_9UOqEAzBEeKlmakrmmRgnw" elementId="org.eclipsecon.smc.e4.app.partsashcontainer.0">
+          <children xsi:type="basic:PartStack" xmi:id="_-SUC8AzBEeKlmakrmmRgnw" elementId="org.eclipsecon.smc.e4.app.partstack.0" containerData="25">
+            <children xsi:type="basic:Part" xmi:id="_Jc7EwAzDEeKlmakrmmRgnw" elementId="org.eclipsecon.smc.e4.app.part.0" contributionURI="bundleclass://org.eclipsecon.smc.e4.app/org.eclipsecon.smc.e4.app.parts.FirstPart" label="Emergency call"/>
+          </children>
+          <children xsi:type="basic:PartStack" xmi:id="_-mlCwAzBEeKlmakrmmRgnw" elementId="org.eclipsecon.smc.e4.app.partstack.1" containerData="75">
+            <children xsi:type="basic:Part" xmi:id="_h3ZaIAzEEeKlmakrmmRgnw" elementId="org.eclipsecon.smc.e4.app.part.1" contributionURI="bundleclass://org.eclipsecon.smc.e4.app/org.eclipsecon.smc.e4.app.parts.SecondPart" label="Emergency response"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="advanced:Perspective" xmi:id="_8q8lEAzYEeKlmakrmmRgnw" elementId="web.service" label="Web service">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_cFCNYAzZEeKlmakrmmRgnw" elementId="org.eclipsecon.smc.e4.app.partsashcontainer.1" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_c8YFEAzZEeKlmakrmmRgnw" elementId="org.eclipsecon.smc.e4.app.partstack.2" containerData="20">
+            <children xsi:type="basic:Part" xmi:id="_dy-88AzZEeKlmakrmmRgnw" elementId="org.eclipsecon.smc.e4.app.part.2" contributionURI="bundleclass://org.eclipsecon.smc.e4.app/org.eclipsecon.smc.e4.app.parts.ThirdPart" label="Convert to fahrenheit"/>
+          </children>
+          <children xsi:type="basic:PartStack" xmi:id="_detWEAzZEeKlmakrmmRgnw" elementId="org.eclipsecon.smc.e4.app.partstack.3" containerData="80">
+            <children xsi:type="basic:Part" xmi:id="_eGknUAzZEeKlmakrmmRgnw" elementId="org.eclipsecon.smc.e4.app.part.3" contributionURI="bundleclass://org.eclipsecon.smc.e4.app/org.eclipsecon.smc.e4.app.parts.FourthPart" label="Fancy animations"/>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_H5FS4Br6EeKgcfKo0hUL4Q" elementId="org.eclipsecon.smc.e4.app.menu.0">
+      <children xsi:type="menu:Menu" xmi:id="_IUAUUBr6EeKgcfKo0hUL4Q" elementId="org.eclipsecon.smc.e4.app.menu.1" label="Simple menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_LUXuABr6EeKgcfKo0hUL4Q" elementId="org.eclipsecon.smc.e4.app.handledmenuitem.0" label="Hello JavaFx" command="_O1nnMBr6EeKgcfKo0hUL4Q"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_2NH7IAzaEeKlmakrmmRgnw" elementId="org.eclipsecon.smc.e4.app.trimbar.0">
+      <children xsi:type="menu:ToolBar" xmi:id="_2zafEAzaEeKlmakrmmRgnw" elementId="org.eclipsecon.smc.e4.app.toolbar.0">
+        <children xsi:type="menu:DirectToolItem" xmi:id="_bFr-UAzbEeKlmakrmmRgnw" elementId="org.eclipsecon.smc.e4.app.directtoolitem.0" label="Switch example" contributionURI="bundleclass://org.eclipsecon.smc.e4.app/org.eclipsecon.smc.e4.app.handlers.TogglePerspective"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_E5c3kAzZEeKlmakrmmRgnw" elementId="org.eclipsecon.smc.e4.app.handler.0" contributionURI="bundleclass://org.eclipsecon.smc.e4.app/org.eclipsecon.smc.e4.app.handlers.TogglePerspective" command="_TqgREAzZEeKlmakrmmRgnw"/>
+  <handlers xmi:id="_S19QIBr6EeKgcfKo0hUL4Q" elementId="org.eclipsecon.smc.e4.app.handler.1" contributionURI="bundleclass://org.eclipsecon.smc.e4.app/org.eclipsecon.smc.e4.app.handlers.CoordinatesHandler" command="_O1nnMBr6EeKgcfKo0hUL4Q"/>
+  <bindingTables xmi:id="_h97AgBXmEeKx8ZeIKB30Dg" elementId="org.eclipsecon.smc.e4.app.bindingtable.0" bindingContext="_ll5B8QzAEeKlmakrmmRgnw">
+    <bindings xmi:id="_izhy0BXmEeKx8ZeIKB30Dg" elementId="org.eclipsecon.smc.e4.app.keybinding.0" keySequence="ALT+C" command="_TqgREAzZEeKlmakrmmRgnw"/>
+  </bindingTables>
+  <rootContext xmi:id="_ll5B8QzAEeKlmakrmmRgnw" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_ll5B8gzAEeKlmakrmmRgnw" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_ll5B8wzAEeKlmakrmmRgnw" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_TqgREAzZEeKlmakrmmRgnw" elementId="org.eclipsecon.smc.e4.app.command.0" commandName="Change perspective" description=""/>
+  <commands xmi:id="_O1nnMBr6EeKgcfKo0hUL4Q" elementId="org.eclipsecon.smc.e4.app.command.1" commandName="Show coordinates"/>
+  <addons xmi:id="_ll5B9AzAEeKlmakrmmRgnw" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_ll5B9QzAEeKlmakrmmRgnw" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_ll5B9gzAEeKlmakrmmRgnw" elementId="at.bestsolution.efxclipse.runtime.bindings.e4.service" contributionURI="bundleclass://at.bestsolution.efxclipse.runtime.bindings.e4/at.bestsolution.efxclipse.runtime.bindings.e4.BindingServiceAddon"/>
+  <addons xmi:id="_ll5B9wzAEeKlmakrmmRgnw" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_ll5B-AzAEeKlmakrmmRgnw" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_ll5B-QzAEeKlmakrmmRgnw" elementId="at.bestsolution.efxclipse.runtime.bindings.e4.model" contributionURI="bundleclass://at.bestsolution.efxclipse.runtime.bindings.e4/at.bestsolution.efxclipse.runtime.bindings.e4.BindingProcessingAddon"/>
+</application:Application>
